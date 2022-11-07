@@ -43,10 +43,10 @@ const Auth = () => {
                 marginTop={5}
                 padding={3}
                 borderRadius={5}
-                boxShadow={"5px 5px 10px #ccc"}
+                boxShadow={"10px 10px 80px #b6d9e9"}
                 sx={{
                     ":hover":{
-                        boxShadow:'10px 10px 20px #ccc'
+                        boxShadow:'10px 10px 80px #ccc'
                     }
                 }}
                 >                    
@@ -88,7 +88,7 @@ const Auth = () => {
                     type="submit"
                     sx={{marginTop:3, borderRadius:3 }}                 
                     variant="contained" 
-                    color="warning">
+                    color="info">
                     {isSignup ? "Sign up" : "Let's Go"}</Button>
                     
                 <Button 
