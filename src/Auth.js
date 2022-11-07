@@ -3,7 +3,6 @@ import { Box, Button, TextField, Typography } from '@mui/material'
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import HowToRegOutlinedIcon from '@mui/icons-material/HowToRegOutlined';
 const Auth = () => {
-
     const [isSignup, setIsSignup] = useState(false);
     const [input, setInput] = useState({
         name:"",
